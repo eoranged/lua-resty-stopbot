@@ -20,7 +20,7 @@ Project is in early development stage and It is expected to be API breakage and 
 
 ## Synopsis
 
-```` lua
+```Nginx
 lua_package_path "/path/to/lua-resty-stopbot/lib/?.lua;/path/to/lua-resty-stopbot/lib/?/init.lua;;";
 
 lua_shared_dict test 10m;
@@ -57,13 +57,15 @@ server {
 
 }
 
-````
+```
 
-# Initialization
+# Module initialization
 
 ## init_storage
 
 ## init_zone
+
+# Request processing
 
 ## access_zone
 
